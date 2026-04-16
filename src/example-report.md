@@ -2,19 +2,37 @@
 title: Example report
 ---
 
-# A brief history of space exploration
+<style>
+  h2 {
+    color: #2c3e50;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 4px;
+    margin-top: 2em;
+  }
+  
+  h3 {
+    color: #16a085;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+  }
 
-This report is a brief overview of the history and current state of rocket launches and space exploration.
+  .essential {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #d35400;
+  }
+</style>
+
 
 ## Background
 
-The history of rocket launches dates back to ancient China, where gunpowder-filled tubes were used as primitive forms of propulsion.
-
-Fast-forward to the 20th century during the Cold War era, the United States and the Soviet Union embarked on a space race, a competition to innovate and explore beyond Earth.
-
-This led to the launch of the first artificial satellite, Sputnik 1, and the crewed moon landing by Apollo 11. As technology advanced, rocket launches became synonymous with space exploration and satellite deployment.
+ipsum dolor sit amet, consectetur <span style="background: linear-gradient(transparent, cyan)">adipiscing</span> elit. A bunch of random stuff .-.
 
 ## The Space Shuttle era
+
 
 ```js
 import {timeline} from "./components/timeline.js";
@@ -73,3 +91,5 @@ The advent of small satellite constellations, such as Starlink by SpaceX, has fu
 As technology continues to advance and global interest in space exploration grows, the future promises even more exciting developments in the realm of rocket launches and space travel.
 
 Exploration will not only be limited to the Moon or Mars, but extend to other parts of our solar system such as Jupiter and Saturn’s moons, and beyond.
+
+
